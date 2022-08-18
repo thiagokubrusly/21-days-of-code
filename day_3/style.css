@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(202, 155, 246);
+    font-family: 'Rationale', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.button{     
+    font-family: 'Rationale', sans-serif;
+    font-size: 35px;
+
+    width: 220px;
+    height: 75px;
+    margin: 100px 0 0 0;
+
+    border: 5px #1c0223 solid;
+    border-radius: 20%;
+    background-color: #b63bdc;
+    color: #232223;
+    cursor: pointer;
+}
+
+.astronaut-container{
+    display: flex;
+    justify-content: center;
+}
+
+.astronaut-img{
+    width: 500px;
+    height: 500px;
+}
+    
+.button:hover{
+    font-family: 'Rationale', sans-serif;
+    font-size: 40px;
+
+    background-color: rgb(69, 141, 229);
+    Color: #090909;
+    text-shadow: 2px 2px 4px rgb(9, 232, 206);
+
+    width: 250px;
+    height: 80px;
+
+    border-radius: 100%;
+    transition-duration: 2s;
+}
+
+#spaceship-img{
+    display: none;
+    width: 250px;
+    height: 250px;
+    margin: 0;
+}
+
+#spaceship-img:hover{
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    
+    transition: 1s;
+    cursor: pointer;
+}
+
+.spaceship-container{
+    display: flex;
+    justify-content: center;
+
+}
