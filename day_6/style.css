@@ -1,0 +1,29 @@
+body{
+    font-family: 'Rubik Dirt', Courier, monospace;
+    
+    background-image: url(./volcano.avif);
+    background-size: cover;
+
+    min-height: 100vh;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    text-shadow: 0 0 5px beige;
+    color: rgb(18, 7, 7);
+
+    background: rgba(131, 138, 184, 0.47);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.2px);
+    -webkit-backdrop-filter: blur(9.2px);
+    border: 1px solid rgba(131, 138, 184, 0.25);
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
