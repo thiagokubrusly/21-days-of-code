@@ -1,0 +1,37 @@
+body{
+    background-color: #0b677e;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    color: rgb(82, 81, 81);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.container {
+    height: 35px;
+    width: 450px;
+    background-color: #CCC;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container .progress-bar{
+   position: absolute;
+   height: 100%;
+   background-color: #0db131;
+   animation: progress-animation 6s infinite;
+   opacity: 0.5;
+}
+
+@keyframes progress-animation{
+    0% { width: 0%; } 
+    100% { width: 100%}
+}
