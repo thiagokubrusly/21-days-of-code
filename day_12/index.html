@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Projeto Turminha Pimpompem Slider - Mapa Dev Week</title>
+        <link rel="shortcut icon" href="./img/imgs-turminha/Logo RGB_PFundo_preto.png" type="image/x-icon">
+
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Outfit&family=Roboto&display=swap" rel="stylesheet"> -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Outfit&family=Roboto&family=Sniglet&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./js/main.js">
+
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <img src="./img/imgs-turminha/Logo RGB_PFundo_preto.png" alt="logo da turminha" class="logoDaTurminha">
+            <h1 class="titulo">Turminha Pimpompem</h1>
+        </header>
+
+        <main class="pokemon-slider">
+            <button class="btn-seta btn-voltar" id="btn-voltar">
+                <img src="./img/seta.png" alt="seta voltar">
+            </button>
+
+            <ul class="lista-pokemons">
+                <li class="cartao selecionado fundo-1">
+                    <div class="informacoes">
+                        <h2 class="nome">Fael</h2>
+                        <p class="vida">HP 300</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="./img/imgs-turminha/fael_tppp.png" alt="Fael" class="imagem-pokemon">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Na vida real, Fael é o principal responsável pela existência da Turminha Pimpompem, por isso seu avô fez ele em desenho animado e o levou para a cidade da Turminha Pimpompem, e nesta versão de fantasia e imaginação Fael herdou o amor pelos animais. Por isso ele cuida e protege os animais.</p>
+                    </div>
+
+                </li>
+
+                <li class="cartao fundo-2">
+                    <div class="informacoes">
+                        <h2 class="nome">Lapisteco</h2>
+                        <p class="vida">HP 800</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="./img/imgs-turminha/Lapisteco_.png" alt="Lapisteco">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">É o mestre da Turminha – inteligente, culto e sempre disposto a ensinar. Ele é um lápis ancião muito sábio e mora bem no fundo da floresta. Construiu o Espaço Saber pertinho de sua casa, onde compartilha todo seu conhecimento.
+                        </p>
+                </li>
+
+                <li class="cartao fundo-3">
+                    <div class="informacoes">
+                        <h2 class="nome">Trapi</h2>
+                        <p class="vida">HP 1200</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="./img/imgs-turminha/Trapi.png" alt="Trapi">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Essa gatinha é muito bonitinha, meiga, solidária e carinhosa. É ligeira, bem arisca e tem um dom muito especial: ela é uma artista, que adora pintar e faz isso muito bem. A propósito, nada faz Trapi mais feliz que pintar retratos de seus amiguinhos.
+                        </p>
+                </li>
+
+                <li class="cartao fundo-4">
+                    <div class="informacoes">
+                        <h2 class="nome">Leleco</h2>
+                        <p class="vida">HP 800</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="./img/imgs-turminha/leleco.png" alt="Leleco">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Imagina um poeta que gosta de se comunicar com os amigos fazendo rimas? Pois na Cidade da Turminha Pim Pom Pem mora um artista das palavras: o Leleco, um papagaio especial com um talento que encanta e deixa feliz toda a galera.
+                        </p>
+                </li>
+
+                <li class="cartao fundo-5">
+                    <div class="informacoes">
+                        <h2 class="nome">Corujilda</h2>
+                        <p class="vida">HP 800</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="./img/imgs-turminha/Corujilda_pose1r.png" alt="Corujilda">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">A Pensa numa pessoa que adooora a natureza e é defensora incansável do meio ambiente. Pensou? Pois eu garanto que a Corujilda é tão ou mais engajada em salvar o nosso planeta. Ah! A corujinha também é muito observadora e – é claro – adora a noite.
+                        </p>
+                </li>
+
+                <li class="cartao fundo-6">
+                    <div class="informacoes">
+                        <h2 class="nome">Trequinho</h2>
+                        <p class="vida">HP 800</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="./img/imgs-turminha/Trequinho.png" alt="Trequinho">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Além de muito divertido e esperto, o macaquinho é um artesão de mão-cheia. Com uma habilidade manual incrível, Trequinho faz maravilhas, entre elas, muito artesanato e escultura de seus queridos amiguinhos. A Turminha adora!
+                        </p>
+                </li>
+
+                <li class="cartao fundo-7">
+                    <div class="informacoes">
+                        <h2 class="nome">Trique Trique</h2>
+                        <p class="vida">HP 800</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="./img/imgs-turminha/triq_.png" alt="Trique Trique">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">É impossível passar perto da lagoa e não escutar o sapinho cantando belas e divertidas canções. Apesar da cantoria, ele está sempre alerta. Não é bobo não. Basta passar um mosquito, que o sapinho (vapt!), já o transforma em uma deliciosa refeição.
+                        </p>
+                </li>
+
+                <li class="cartao fundo-8">
+                    <div class="informacoes">
+                        <h2 class="nome">Morceguildo</h2>
+                        <p class="vida">HP 800</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="./img/imgs-turminha/Morceguildo.png" alt="Morceguildo">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Ama matemática, é muito curioso e sagaz e sabe como ninguém desvendar enigmas. Além de “cabeçudo”, ele é muito solidário e nunca deixa seus amiguinhos na mão. Ah! outra coisa: ele morre de medo do escuro. Você já viu um morcego que tenha medo de escuro?
+                        </p>
+                </li>
+
+                <li class="cartao fundo-9">
+                    <div class="informacoes">
+                        <h2 class="nome">Rabuginha</h2>
+                        <p class="vida">HP 800</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="./img/imgs-turminha/Rabujinha.png" alt="Rabuginha">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Mal-humorada que só, deseja dominar a floresta e subjugar toda a Turminha. Mas dominá-los não será fácil não. Ela é o alvo preferido das Letrinhas Mágicas, que, volta e meia, aprontam brincadeiras que despertam a ira da bruxinha.
+                        </p>
+                </li>
+
+                <li class="cartao fundo-10">
+                    <div class="informacoes">
+                        <h2 class="nome">Letrinhas Mágicas</h2>
+                        <p class="vida">HP 800</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="./img/imgs-turminha/letrinhasMagicas.png" alt="Letrinhas Mágicas">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Brincalhonas, estão sempre interagindo com os amiguinhos. Além disso, elas têm um poder muito, muito especial: dominam a arte da comunicação. Graças às Letrinhas Mágicas, o equilíbrio e a harmonia são sempre mantidos, pois todos se entendem – mesmo sendo de espécies muito diferentes.
+                        </p>
+                </li>
+
+            </ul>
+
+            <button class="btn-seta" id="btn-avancar">
+                <img src="./img/seta.png" alt="seta avançar">
+            </button>
+
+        </main>
+
+        <script src="./js/main.js"></script>
+    </body>
+</html>
