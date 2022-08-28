@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    background-image: url(./bg-wall.jpg);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-button{
+    border: 0;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #072f53;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.nav-button i {
+    color: #fff;
+}
+
+.overLay{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(0, 0, 0); */
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.overLay-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overLay a{
+    padding: 8px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    font-size: 34px;
+    transition: 0.3s;
+}
+
+.overLay a:hover, .overLay a:focus{
+    color: #f1f1f1;
+}
+
+.overLay .closebtn{
+    position: absolute;
+    top: 25px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height:450px){
+    .overLay a {font-size: 20px;}
+    .overLay, .closebtn{
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
