@@ -1,0 +1,38 @@
+@import url('@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Outfit&family=Rationale&family=Roboto&family=Rubik+Dirt&family=Sniglet&display=swap');');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    margin: 0;
+    background-color: rgb(216, 216, 186);
+}
+
+h1 {
+    color: rgb(26, 68, 9);
+    margin: 15px 0 15px 0;
+    text-align: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.container img{
+    object-fit: cover;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+}
