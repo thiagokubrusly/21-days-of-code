@@ -1,0 +1,8 @@
+body{
+    background-color:rgb(134, 153, 237);
+}
+h1{
+    color: rgb(31, 2, 74);
+    display: flex;
+    justify-content: center;
+}
